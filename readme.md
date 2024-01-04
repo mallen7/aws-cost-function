@@ -23,8 +23,7 @@ Prepare Your Package:
 ### Create a ZIP Archive:
 
 - Zip the contents of lambda_package, not the folder itself.
-    On Linux/macOS: zip -r ../my_lambda_function.zip . (run inside lambda_package folder).
-    On Windows: You can use a file archiver like 7-Zip.
+    * On Linux/macOS: zip -r ../my_lambda_function.zip . (run inside lambda_package folder).
 
 ## Upload the ZIP to AWS Lambda
 
